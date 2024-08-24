@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+:root {
+    --cor1: cadetblue;
+    --cor2: #180F4A;
+    --cor3: #090422;
+    --cor4: black;
+
+    --font1: "Luckiest Guy", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    background:white url('img/gojoimg.png') center right no-repeat;
+    background-size: 400px;
+}
+
+header>h1 {
+    color: var(--cor1);
+    font-family: var(--font1);
+    font-size: 60px;
+    text-shadow: 2px 2px 2px var(--cor4);
+    padding: 20px;
+}
+
+header>h2 {
+    color: var(--cor2);
+    font-family: var(--font1);
+    font-size: 40px;
+    padding: 15px;
+}
+
+
+
+
+nav {
+    background-color: var(--cor1);
+    height: 35px;
+}
+
+nav>a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: var(--font1);
+    text-shadow: 1px 1px 1px var(--cor3);
+    display: inline-block; /* consegui centralizar assim */
+}
+
+nav>a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ main  img {
+    height: 300px;
+}
+
+section {
+    margin-bottom: 5%;
+}
+
+.manga-home {
+    display: inline-block;
+    border: 5px solid var(--cor1);
+    color: white;
+    margin-left: 15px;
+    
+
+}
+
+
+.titulo {
+    color: var(--cor1);
+    text-align: center;
+    background-color: white;
+    font-family: var(--font1);
+    text-shadow: 2px 2px 2px var(--cor3);
+    font-size: 50px;
+}
+
+.barra{
+    background: cadetblue;
+    height: 15px;
+}
+
+.cont {
+    border: 5px solid var(--cor1);
+    text-align: center;
+    color: var(--cor1);
+    width: 355px;
+    height: 300px;
+    margin:  auto;
+    margin-top: 40px;
+    background-color: white;
+    font-family: "Luckiest Guy", cursive;
+    border-radius: 5px;
+}
+
+.botao{
+    background-color: var(--cor1);
+    font-family: var(--font1); 
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius:5px ;
+    
+}
+
+.botao:hover{
+    background-color:var(--cor3);
+}
+
+
+.cont-logo{
+    margin-left:33%;
+}
+
+.barras-laterais-imaginarias{
+margin-left: 5%;
+margin-right:5%;
+}
+
+.mensagem{
+    color: cadetblue;
+    border: solid cadetblue 4px;
+    display: inline-block;
+    width: 550px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 5%;
+    text-align: center;
+    background: white;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 18px; 
+}
+
+#botao{
+    margin-left: 44%;
+}
+
