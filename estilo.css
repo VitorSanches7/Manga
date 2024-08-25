@@ -157,3 +157,73 @@ margin-right:5%;
     margin-left: 44%;
 }
 
+.container {
+  display: flex;
+  height: 100vh;
+
+}
+
+.fundo1 {
+    background: white url('img/logoo.png') no-repeat center;
+    width: 50%;
+    
+}
+
+.fundo2 {
+    width: 50%;
+    background-color: var(--cor1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bloco2{
+
+    background-color: white;
+    color: var(--cor1);
+    padding: 40px;
+    border-radius: 60px;
+    width: 400px;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 30px;
+    border: solid 1px var(--cor3);
+
+
+}
+
+
+.campo {
+    border-radius:9px;
+    padding: 5px; 
+    width: 300px; 
+    height: 20px;
+}
+
+#botao-enviar {
+    font-size: 16px;
+    padding: 4px;
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    font-family: var(--font1);
+    margin-bottom:10px;
+}
+
+#botao-voltar {
+    font-size: 20px;
+    padding: 4px;
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid   rgba(0, 0, 0, 0.452);
+;
+}
+
+#botao-enviar:hover, #botao-voltar:hover{
+    background-color: var(--cor3);
+}
