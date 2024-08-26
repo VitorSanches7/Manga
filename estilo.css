@@ -164,9 +164,9 @@ margin-right:5%;
 }
 
 .fundo1 {
+     width: 50%;
     background: white url('img/logoo.png') no-repeat center;
-    width: 50%;
-    
+   
 }
 
 .fundo2 {
@@ -178,8 +178,7 @@ margin-right:5%;
 
 }
 
-.bloco2{
-
+.form{
     background-color: white;
     color: var(--cor1);
     padding: 40px;
@@ -189,7 +188,6 @@ margin-right:5%;
     font-family: var(--font1);
     font-size: 30px;
     border: solid 1px var(--cor3);
-
 
 }
 
@@ -220,7 +218,7 @@ margin-right:5%;
     color: white;
     border-radius: 10px;
     text-decoration: none;
-    border: 1px solid   rgba(0, 0, 0, 0.452);
+    border: 1px solid  rgba(0, 0, 0, 0.452);
 ;
 }
 
